@@ -1,0 +1,118 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Какое из этих животных известно как самое быстрое наземное существо, способное развивать скорость свыше 100 км/ч на коротких дистанциях, при этом имеющее характерные чёрные «слёзные полосы» от глаз к пасти?",
+      "correct_answer_text": "Капец ты умный...",
+      "wrong_answer_text": "Мдааааа",
+      "answers": [
+        { "image": "../assets/question1/image1.png" },
+        { "image": "../assets/question1/image2.jpg" },
+        { "image": "../assets/question1/image3.jpg" },
+        { "image": "../assets/question1/image4.jpg" }
+      ],
+      "correct": 1
+    },
+    {
+      "id": 2,
+      "text": "Какое из этих сооружений является самым высоким зданием в мире по состоянию на сегодняшний день и расположено в городе Дубай?",
+      "correct_answer_text": "Чё, умный сильно?",
+      "wrong_answer_text": "Завязывай давай",
+      "answers": [
+        { "image": "../assets/question2/image1.png" },
+        { "image": "../assets/question2/image2.jpg" },
+        { "image": "../assets/question2/image3.jpg" },
+        { "image": "../assets/question2/image4.jpg" }
+      ],
+      "correct": 2
+    },
+    {
+      "id": 3,
+      "text": "Какой из перечисленных небесных объектов является планетой Солнечной системы и отличается наличием ярко выраженных колец, хорошо заметных даже на изображениях?",
+      "correct_answer_text": "Типа умный",
+      "wrong_answer_text": "Неприкольная пена",
+      "answers": [
+        { "image": "../assets/question3/image1.jpg" },
+        { "image": "../assets/question3/image2.jpg" },
+        { "image": "../assets/question3/image3.jpg" },
+        { "image": "../assets/question3/image4.jpg" }
+      ],
+      "correct": 1
+    },
+    {
+      "id": 4,
+      "text": "Какой из этих персонажей комиксов известен тем, что не обладает сверхспособностями, но использует технологии, интеллект и боевые навыки, а также ассоциируется с образом летучей мыши?",
+      "correct_answer_text": "Красава",
+      "wrong_answer_text": "Я в шоке",
+      "answers": [
+        { "image": "../assets/question4/image1.jpg" },
+        { "image": "../assets/question4/image2.png" },
+        { "image": "../assets/question4/image3.jpg" },
+        { "image": "../assets/question4/image4.jpg" }
+      ],
+      "correct": 2
+    },
+    {
+      "id": 5,
+      "text": "Какой из этих видов транспорта способен выполнять межконтинентальные перелёты, используя реактивные двигатели и крылья фиксированной формы?",
+      "correct_answer_text": "Крутышка",
+      "wrong_answer_text": "Серьёзно?",
+      "answers": [
+        { "image": "../assets/question5/image1.jpg" },
+        { "image": "../assets/question5/image2.jpg" },
+        { "image": "../assets/question5/image3.jpg" },
+        { "image": "../assets/question5/image4.jpg" }
+      ],
+      "correct": 1
+    },
+    {
+      "id": 6,
+      "text": "Какое из этих животных является морским млекопитающим, обладает высоким уровнем интеллекта, использует эхолокацию и часто изображается на фотографиях с характерной «улыбкой»?",
+      "correct_answer_text": "Да ты реальный пепс",
+      "wrong_answer_text": "Да ты издеваешься...",
+      "answers": [
+        { "image": "../assets/question6/image1.jpg" },
+        { "image": "../assets/question6/image2.jpg" },
+        { "image": "../assets/question6/image3.jpg" },
+        { "image": "../assets/question6/image4.jpg" }
+      ],
+      "correct": 1
+    },
+    {
+      "id": 7,
+      "text": "Какой из перечисленных приборов традиционно используется для измерения времени и может быть как механическим, так и электронным, а также носиться на руке или располагаться на стене?",
+      "correct_answer_text": "Хорош",
+      "wrong_answer_text": "А сын маминой подруги ответил бы",
+      "answers": [
+        { "image": "../assets/question7/image1.jpg" },
+        { "image": "../assets/question7/image2.jpg" },
+        { "image": "../assets/question7/image3.jpg" },
+        { "image": "../assets/question7/image4.jpg" }
+      ],
+      "correct": 2
+    }
+  ],
+
+  "requests": [
+    {
+      "count": 1,
+      "text": "Я был о тебе лучшего мнения"
+    },
+    {
+      "count": [2, 3],
+      "text": "Так себе, конечно"
+    },
+    {
+      "count": [4, 5],
+      "text": "Среднячок"
+    },
+    {
+      "count": 6,
+      "text": "Малёха не дотянул"
+    },
+    {
+      "count": 7,
+      "text": "Ну мощь, ну вообще, ну даже слов нет"
+    }
+  ]
+}
