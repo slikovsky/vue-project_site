@@ -41,7 +41,7 @@ defineProps<{
   width: 140px;
   height: 180px;
   border-radius: 15px;
-  background: rgba(0, 0, 0, 0.25);
+  background: #004BAA;
   opacity: 0;
   transition: 0.3s;
 }
