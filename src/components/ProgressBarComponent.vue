@@ -3,16 +3,12 @@ const props = defineProps<{
   current: number
   total: number
 }>()
-
 const ticks = Array.from({ length: props.total - 1 })
 </script>
 
 <template>
   <div class="progress">
-    <!-- линия -->
     <div class="bar" :style="{ width: (props.current / props.total) * 100 + '%' }"></div>
-
-    <!-- засечки -->
     <div class="ticks">
       <span v-for="(_, index) in ticks" :key="index" class="tick"
         :style="{ left: ((index + 1) / props.total) * 100 + '%' }"></span>

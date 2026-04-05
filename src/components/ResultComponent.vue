@@ -1,15 +1,16 @@
 <script setup lang="ts">
 import { computed } from "vue";
+
 type Result = {
   count: number | number[];
   text: string;
 }
+
 const { score, results } = defineProps<{
   score: number;
   total: number;
   results: Result[];
 }>();
-
 const resultText = computed(() => {
   return results.find((r) => {
     if (Array.isArray(r.count)) {

@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import data from './data/data.json'
+import QuestionComponent from './components/QuestionComponent.vue'
+import AnswerComponent from './components/AnswerComponent.vue'
+import ProgressBarComponent from './components/ProgressBarComponent.vue'
+import NextComponent from './components/NextComponent.vue'
+import ResultComponent from './components/ResultComponent.vue'
+
 type Answer = {
   image: string
 }
-
 type Question = {
   id: number
   text: string
@@ -13,12 +18,6 @@ type Question = {
   answers: Answer[]
   correct: number
 }
-
-import QuestionComponent from './components/QuestionComponent.vue'
-import AnswerComponent from './components/AnswerComponent.vue'
-import ProgressBarComponent from './components/ProgressBarComponent.vue'
-import NextComponent from './components/NextComponent.vue'
-import ResultComponent from './components/ResultComponent.vue'
 
 const questions = data.questions as Question[]
 const currentQuestionIndex = ref<number>(0)
